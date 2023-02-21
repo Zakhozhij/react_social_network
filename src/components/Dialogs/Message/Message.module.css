@@ -1,0 +1,45 @@
+.message{
+    display: grid;
+    width: 100%;
+    padding-top:5px;
+    padding-bottom:5px;
+    margin-bottom: 5px;
+}
+.messageLeft{
+    grid-template-areas:
+    "i m c";
+    grid-template-columns: 1fr 9fr 2fr;
+}
+.messageRight{
+    grid-template-areas:
+    "c m i";
+    grid-template-columns: 2fr 9fr 1fr;
+    text-align: right;
+
+}
+
+.emptyArea{
+    grid-area: c;
+}
+
+
+.messageText{
+    grid-area: m;
+    vertical-align: middle;
+    background-color: #c0bcbca2;
+    border-bottom: solid 1px #E0E0E0;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 8px;
+    max-width: 100%;
+    
+}
+
+img{
+    grid-area: i;
+    margin-right:5px;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    
+}

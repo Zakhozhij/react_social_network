@@ -1,13 +1,33 @@
 .dialogs {
     display: grid;
-    grid-template-columns: 2fr 10fr;
+    grid-template-columns: 3fr 9fr;
 }
 
 .dialogsItems {
     padding: 10px;
+    list-style-type: none;
+    margin: 0;
+    max-height: 470px;
+    overflow: auto;
 }
-
-
 .messages {
     padding: 10px;
+    background-color: rgb(243, 252, 208);
+    
+}
+.messagesList{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    max-height: 400px;
+    overflow: auto;
+}
+.writeMessage{
+    margin-top: 10px;
+}
+.writeMessage textarea{
+    width: 100%;
+}
+.buttonSendMessage button{
+    float: right;
 }

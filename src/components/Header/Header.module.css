@@ -1,6 +1,10 @@
 .header{
     grid-area: h;
-    background-color:#d3dbd6;
+    background-color:#454545;
+}
+.header h3{
+    text-align: center;
+    color: #e8faef;
 }
 .header img {
     width:100px;
